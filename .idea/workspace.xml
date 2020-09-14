@@ -28,16 +28,18 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/PR" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Exploration/data" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\WebStormProjects\Team8\PR" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\WebStormProjects\Team8\PR" />
       <recent name="E:\WebStormProjects\Team8" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\WebStormProjects\Team8\Exploration\data" />
+      <recent name="E:\WebStormProjects\Team8\PR" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -50,7 +52,9 @@
       <updated>1599862297643</updated>
       <workItem from="1599862298786" duration="20058000" />
       <workItem from="1599884839811" duration="31000" />
-      <workItem from="1599934130033" duration="10359000" />
+      <workItem from="1599934130033" duration="10845000" />
+      <workItem from="1600012031854" duration="617000" />
+      <workItem from="1600111619320" duration="51000" />
     </task>
     <servers />
   </component>

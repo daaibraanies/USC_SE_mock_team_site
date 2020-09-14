@@ -9,6 +9,26 @@ body
     height: 100%;
 }
 
+div#client-logo-wrapper
+{
+    height: 100px;
+    width: 250px;
+    padding: 20px;
+}
+
+a#client-link
+{
+    display: block;
+    height: 100px;
+    width: 250px;
+}
+
+img#client-logo
+{
+    height: 100px;
+    width: 250px;
+}
+
 #logo-link
 {
     font-family: "Montserrat",sans-serif;
@@ -322,37 +342,37 @@ h2 {
 
 #progress-exp {
     animation-name: progress-exp;
-    animation-delay: 0.7s;
+    animation-delay: 4.7s;
 }
 
 #progress-val {
     animation-name: progress-val;
-    animation-delay: 1.4s;
+    animation-delay: 5.4s;
 }
 
 #progress-found {
     animation-name: progress-found;
-    animation-delay: 2.1s;
+    animation-delay: 6.1s;
 }
 
 #progress-dev {
     animation-name: progress-dev;
-    animation-delay: 2.8s;
+    animation-delay: 7.8s;
 }
 
 #progress-wordpress {
     animation-name: progress-wordpress;
-    animation-delay: 3.5s;
+    animation-delay: 8.5s;
 }
 
 #progress-bootstrap {
     animation-name: progress-bootstrap;
-    animation-delay: 4.2s;
+    animation-delay: 9.2s;
 }
 
 #progress-laravel {
     animation-name: progress-laravel;
-    animation-delay: 4.9s;
+    animation-delay: 10.9s;
 }
 
 @-webkit-keyframes progress-exp {
@@ -609,7 +629,116 @@ div#footer-wrapper p
     padding-top: 10px;
 }
 
-/*------------ ANIMATION -------------*/
+/*---------SHARED------------*/
+
+div#page-wrapper
+{
+    margin-top:90px;
+    height: 85vh;
+    width: 90vw;
+    padding-top: 10px;
+}
+
+div.item-wrapper
+{
+    width: 80%;
+    margin: 20px auto;
+    min-height: 150px;
+    height: 20%;
+    display: table;
+    background-color: white;
+    border-radius:10px;
+
+    -webkit-box-shadow: 8px 10px 42px -13px rgba(0,0,0,0.84);
+    -moz-box-shadow: 8px 10px 42px -13px rgba(0,0,0,0.84);
+    box-shadow: 8px 10px 42px -13px rgba(0,0,0,0.84);
+}
+
+div.item-wrapper:hover
+{
+    -webkit-box-shadow: 8px 20px 62px 1px rgba(0,0,0,0.84);
+    -moz-box-shadow: 8px 12px 44px 1px rgba(0,0,0,0.84);
+    box-shadow: 8px 12px 44px 1px rgba(0,0,0,0.84);
+}
+
+div.item-date-wrapper
+{
+    height: 100%;
+    width: 20%;
+    float: left;
+}
+
+div.item-data-wrapper
+{
+    height: 100%;
+    width: 80%;
+    float: left;
+    position: relative;
+    display: table-row;
+}
+
+h3.item-date-day
+{
+    color: darkred;
+    text-align: center;
+    font-size: 4.5em;
+    margin-bottom: 15px;
+}
+
+h4.item-date
+{
+    color: black;
+    text-align: center;
+    font-size: 1em;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding:5px 2px;
+    margin: 2px 5px;
+}
+
+h3.item-name
+{
+    text-align: center;
+    padding: 4px 2px;
+    border-bottom: solid 1px black;
+    margin: 2px 10px;
+}
+p.item-comment
+{
+    margin: 2px 10px 25px 10px;
+}
+
+a.item-link
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 5px 10px;
+}
+
+div#sublink-wrapper
+{
+    margin: 10px 10px;
+    height: 50px;
+    width: 150px;
+    background-color: #f5f5f5;
+    text-align: center;
+    padding-top: 12px;
+    border-radius: 8px;
+}
+
+div#sublink-wrapper:hover
+{
+    background-color: #eeeeee;
+}
+
+div#sublink-wrapper a
+{
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+/*------------ STARS ANIMATION -------------*/
 #stars {
     width: 1px;
     height: 1px;
