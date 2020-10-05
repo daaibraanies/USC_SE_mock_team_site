@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1b7a046-030b-4e1d-9ce6-dbf4e94264fa" name="Default Changelist" comment="" />
+    <list default="true" id="b1b7a046-030b-4e1d-9ce6-dbf4e94264fa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/._09_Proposal_Nuleep_GracePark.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/._anurag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/._anurag.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/._chris.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/._circuit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/._hanwen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/._justin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/._justin.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/._likhita.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/._me.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/._nuleep.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/._suki.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/._suki.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Team8.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Team8.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMN/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CMN/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Development/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Development/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exploration/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Exploration/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FD/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/FD/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Foundations/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Foundations/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PR/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/PR/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Valuation/Prototype/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Valuation/Prototype/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Valuation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Valuation/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_page.js" beforeDir="false" afterPath="$PROJECT_DIR$/main_page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style_contents/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/style_contents/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style_contents/webface.css" beforeDir="false" afterPath="$PROJECT_DIR$/style_contents/webface.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,18 +59,23 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Exploration/data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\WebStormProjects\Team8\PR" />
-      <recent name="E:\WebStormProjects\Team8" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\WebStormProjects\Team8" />
+      <recent name="E:\WebStormProjects\Team8\style_contents" />
       <recent name="E:\WebStormProjects\Team8\Exploration\data" />
       <recent name="E:\WebStormProjects\Team8\PR" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\WebStormProjects\Team8\style_contents" />
+      <recent name="E:\WebStormProjects\Team8\style_contents\images" />
+      <recent name="E:\WebStormProjects\Team8" />
+      <recent name="E:\WebStormProjects\Team8\PR\data\bw1" />
+      <recent name="E:\WebStormProjects\Team8\PR\data" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -54,7 +90,18 @@
       <workItem from="1599884839811" duration="31000" />
       <workItem from="1599934130033" duration="10845000" />
       <workItem from="1600012031854" duration="617000" />
-      <workItem from="1600111619320" duration="51000" />
+      <workItem from="1600111619320" duration="2687000" />
+      <workItem from="1600305428184" duration="905000" />
+      <workItem from="1600306957741" duration="1226000" />
+      <workItem from="1600375204945" duration="653000" />
+      <workItem from="1600449797828" duration="1266000" />
+      <workItem from="1600464265902" duration="264000" />
+      <workItem from="1600464534215" duration="2529000" />
+      <workItem from="1600470920668" duration="11247000" />
+      <workItem from="1600832675726" duration="719000" />
+      <workItem from="1600918615751" duration="1479000" />
+      <workItem from="1601154746774" duration="1200000" />
+      <workItem from="1601693029975" duration="921000" />
     </task>
     <servers />
   </component>
@@ -62,6 +109,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600479196596">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600479196596" />
     <state x="453" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1599871853768">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

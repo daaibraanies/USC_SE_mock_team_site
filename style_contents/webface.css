@@ -60,6 +60,7 @@ img#client-logo
     max-height: 120px;
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #000000 100%);
     overflow-y: hidden;
+    z-index: 250;
 }
 
 ul#navigation
@@ -89,14 +90,80 @@ h2#team-header
     font-weight: 900;
 }
 
+div#team-nav-wrapper
+{
+    position: relative;
+}
+
+
+div#arrow-left
+{
+    position: absolute;
+    z-index: 101;
+    left: 0;
+    margin-top: 0;
+    height: 100%;
+    width: 40px;
+
+    background-image: url("next.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+div#arrow-right
+{
+    position: absolute;
+    z-index: 101;
+    right: 0;
+    margin-top: 0;
+    height: 100%;
+    width: 40px;
+
+    background-image: url("next.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+div#arrow-right:hover
+{
+    background-size: 115%;
+}
+
+div#arrow-left:hover
+{
+    background-size: 115%;
+}
+
 #team-wrapper
 {
-    overflow: auto;
+    position: relative;
+    overflow: scroll;
+    overflow-y: hidden;
+
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+
     width: 100vw;
     height: 100%;
     background-color: #f1f1f1;
-    margin: 2em 0px 2em 0px;
-    padding: 20px 20px 20px 10%;
+    margin: 2em 0em 2em 0em;
+    padding: 20px 20px 20px 0;
+
+    box-sizing: border-box;
+
+    display: -webkit-flex; /* Safari */
+    display: flex; /* Standard syntax */
+    border-right: 55px solid rgba(0,0,0,0);
+    border-left: 40px solid rgba(0,0,0,0);
+
+    z-index: 100;
 
     background: rgba(27,39,53,1);
     background: -moz-linear-gradient(top, rgb(27, 39, 53) 0%, rgba(83,134,201,1) 100%);
@@ -108,14 +175,26 @@ h2#team-header
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b2735', endColorstr='#5386c9', GradientType=0 );
 }
 
+#team-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+
 div.team-member-wrapper
 {
-    height: 400px;
-    width: 20%;
+    height: auto;
+    width: 30%;
     min-width: 250px;
-    float: left;
-    margin: 2.5% 2.5% 2.5% 2.5px;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 40px 20px 0;
+    background-color: rgba(0,0,0,0.2);
+    position: relative;
 
+    -webkit-flex: 1 1 auto; /* Safari */
+    -ms-flex: 1 1 auto; /* IE 10 */
+    flex: 1 1 auto; /* Standard syntax */
 }
 
 div.tm-photo
@@ -125,6 +204,11 @@ div.tm-photo
     height: 200px;
     background-color: #d2d2d2;
     border-radius: 50%;
+}
+
+div.tm-description
+{
+    padding-bottom: 20px;
 }
 
 div.tm-description h3
@@ -147,61 +231,87 @@ p.tm-role
 div.tm-description p
 {
     color: white;
+    text-align: center;
 }
 
-p.tm-info
+div.tm-description p.tm-info
 {
+    text-align: left;
+}
+
+div.lin-wrapper
+{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+    padding-top: 50px;
     text-align: center;
+}
+
+div.lin-wrapper  a > img
+{
+    height: 25px;
+    width: 25px;
+    margin: 0 5px;
+}
+
+div.lin-wrapper  a > img:hover
+{
+    height: 30px;
+    width: 30px;
 }
 
 div#tm-leshchev
 {
-    background-image: url("../me.jpg");
+    background-image: url("images/me.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 div#tm-likhita
 {
-    background-image: url("../likhita.jpg");
+    background-image: url("images/likhita.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 div#tm-kuo
 {
-    background-image: url("../chris.png");
+    background-image: url("images/chris.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 div#tm-suki
 {
-    background-image: url("../suki.png");
+    background-image: url("images/suki.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 div#tm-hanwen
 {
-    background-image: url("../hanwen.png");
+    background-image: url("images/hanwen.png");
     background-size: cover;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
 }
 
 div#tm-fu
 {
-    background-image: url("../justin.png");
+    background-image: url("images/justin.png");
     background-size: cover;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
 }
 
 div#tm-anurag
 {
-    background-image: url("../anurag.png");
+    background-image: url("images/anurag.png");
     background-size: cover;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
 }
+
 /* ----------------- TEAM WRAPPER ------------*/
 
 /*------------------ PROJECT WRAPPER --------------*/
@@ -380,7 +490,7 @@ h2 {
         width: 0%;
     }
     100% {
-        width: 10%;
+        width: 45%;
     }
 }
 @-moz-keyframes progress-exp {
@@ -388,7 +498,7 @@ h2 {
         width: 0%;
     }
     100% {
-        width: 10%;
+        width: 45%;
     }
 }
 @-ms-keyframes progress-exp {
@@ -396,7 +506,7 @@ h2 {
         width: 0%;
     }
     100% {
-        width: 10%;
+        width: 45%;
     }
 }
 @keyframes progress-exp {
@@ -404,7 +514,7 @@ h2 {
         width: 0%;
     }
     100% {
-        width: 10%;
+        width: 45%;
     }
 }
 @-webkit-keyframes progress-val {
@@ -412,7 +522,7 @@ h2 {
         width: 0%;
     }
     100% {
-        width: 3%;
+        width: 20%;
     }
 }
 @-moz-keyframes progress-val {
@@ -420,7 +530,7 @@ h2 {
         width: 0%;
     }
     100% {
-        width: 3%;
+        width: 20%;
     }
 }
 @-ms-keyframes progress-val {
@@ -428,7 +538,7 @@ h2 {
         width: 0%;
     }
     100% {
-        width: 3%;
+        width: 20%;
     }
 }
 @keyframes progress-val {
@@ -436,7 +546,7 @@ h2 {
         width: 0%;
     }
     100% {
-        width: 3%;
+        width: 20%;
     }
 }
 @-webkit-keyframes progress-found {
@@ -444,7 +554,7 @@ h2 {
         width: 0%;
     }
     100% {
-        width: 0%;
+        width: 6%;
     }
 }
 @-moz-keyframes progress-found {
@@ -452,7 +562,7 @@ h2 {
         width: 0%;
     }
     100% {
-        width: 0%;
+        width: 6%;
     }
 }
 @-ms-keyframes progress-found {
@@ -460,7 +570,7 @@ h2 {
         width: 0%;
     }
     100% {
-        width: 0%;
+        width: 6%;
     }
 }
 @keyframes progress-found {
@@ -468,7 +578,7 @@ h2 {
         width: 0%;
     }
     100% {
-        width: 0%;
+        width: 6%;
     }
 }
 @-webkit-keyframes progress-dev {
@@ -476,7 +586,7 @@ h2 {
         width: 0%;
     }
     100% {
-        width: 0%;
+        width: 1%;
     }
 }
 @-moz-keyframes progress-dev {
@@ -484,7 +594,7 @@ h2 {
         width: 0%;
     }
     100% {
-        width: 0%;
+        width: 1%;
     }
 }
 @-ms-keyframes progress-dev {
@@ -492,7 +602,7 @@ h2 {
         width: 0%;
     }
     100% {
-        width: 0%;
+        width: 1%;
     }
 }
 @keyframes progress-dev {
@@ -500,7 +610,7 @@ h2 {
         width: 0%;
     }
     100% {
-        width: 0%;
+        width: 1%;
     }
 }
 @-webkit-keyframes progress-bootstrap {
@@ -710,10 +820,11 @@ p.item-comment
 
 a.item-link
 {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    margin: 5px 10px;
+    float: right;
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin: 0px 10px 5px 10px;
+    padding-top: 5px;
 }
 
 div#sublink-wrapper

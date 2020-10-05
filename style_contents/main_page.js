@@ -1,7 +1,6 @@
 $(document).ready(function ()
 {   var SCROLL_ANIMATED = false;
 
-
     $(document).scroll(function(){
         var scrolled = $(window).scrollTop();
         var win_height = $(window).height()-80;
@@ -27,6 +26,24 @@ $(document).ready(function ()
             },250);
         }
     });
+
+
+    $("div#arrow-left").mousedown(function ()
+    {
+        var scrolled_left = $("div#team-wrapper").scrollLeft();
+        $("div#team-wrapper").stop().animate(
+            {scrollLeft:scrolled_left-200},500,"swing"
+        );
+    });
+
+    $("div#arrow-right").mousedown(function ()
+    {
+        var scrolled_left = $("div#team-wrapper").scrollLeft();
+        $("div#team-wrapper").stop().animate(
+            {scrollLeft:scrolled_left+200},500,"swing"
+        );
+    });
+
 });
 
 
