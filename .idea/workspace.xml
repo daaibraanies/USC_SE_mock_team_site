@@ -64,18 +64,18 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\WebStormProjects\Team8\Valuation" />
+      <recent name="E:\WebStormProjects\Team8\Valuation\Prototype" />
+      <recent name="E:\WebStormProjects\Team8\style_contents" />
+      <recent name="E:\WebStormProjects\Team8\style_contents\images" />
+      <recent name="E:\WebStormProjects\Team8" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\WebStormProjects\Team8" />
       <recent name="E:\WebStormProjects\Team8\style_contents" />
       <recent name="E:\WebStormProjects\Team8\Exploration\data" />
       <recent name="E:\WebStormProjects\Team8\PR" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\WebStormProjects\Team8\style_contents" />
-      <recent name="E:\WebStormProjects\Team8\style_contents\images" />
-      <recent name="E:\WebStormProjects\Team8" />
-      <recent name="E:\WebStormProjects\Team8\PR\data\bw1" />
-      <recent name="E:\WebStormProjects\Team8\PR\data" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -102,6 +102,9 @@
       <workItem from="1600918615751" duration="1479000" />
       <workItem from="1601154746774" duration="1200000" />
       <workItem from="1601693029975" duration="921000" />
+      <workItem from="1602032582429" duration="771000" />
+      <workItem from="1602135275778" duration="39000" />
+      <workItem from="1602530887857" duration="2405000" />
     </task>
     <servers />
   </component>
@@ -113,6 +116,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600479196596" />
+    <state x="580" y="275" key="FileChooserDialogImpl" timestamp="1602135308950">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="580" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602135308950" />
     <state x="453" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1599871853768">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
